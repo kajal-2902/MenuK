@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/menu.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+    <h1 style="background-color: whitesmoke; color: black;">
+        <marquee behavior="" direction="">🍽 welcome to kaju's kitchen 🍽</marquee>
+    </h1>
+
+    <h3 style="background-color: gray; color: black;"> 🍵 soup</h3>
+    <ol type="A">
+        <li> <pre>Tomato soup                 100</pre></li>
+        <li> <pre>Veg corn soup               200</pre></li>
+        <li> <pre>veg manchow soup            250</pre></li>
+    </ol>
+
+    <h3 style="background-color: gray; color: black;">🥟 Papad</h3>
+    <ol type="a">
+        <li> <pre>Masala papad                 100</pre></li>
+        <li> <pre>rosted papad                 200</pre></li>
+        <li> <pre>Fried papad                  250</pre></li>
+    </ol>
+
+    <h3 style="background-color: gray; color: black;"> 🥘 Punjabi Special</h3>
+    <ol type="I">
+        <li> <pre>Paneer Masala                100</pre></li>
+        <li> <pre>Paneer Tikka                 200</pre> </li>
+        <li> <pre>aneer Butter                 250</pre>P</li>
+    </ol>
+ 
+    <h3 style="background-color: gray; color: black;">🍪 Roti &amp; Naan</h3>
+    <ol type="i">
+        <li><pre>Roti                        40</pre>  </li>
+        <li><pre>Plain kulcha                40</pre></li>
+        <li><pre>Plain Naan                  40</pre></li>
+    </ol>
+
+    <h3 style="background-color: gray; color: black;">🍝 Chat</h3>
+    <ul type="square">
+        <li> <pre>Tikki chat                 100</pre></li>
+        <li> <pre>Delhi chat                 100</pre></li>
+        <li> <pre>Basket chat                100</pre></li>
+    </ul>
+
+    <h3 style="background-color: gray; color: black;"> 🍨 Sweets</h3> 
+     <ul type="circle">
+          <li><pre>Ice-cream                  100</pre></li>
+          <li><pre>Gulab jamun                100</pre></li>
+    </ul>   
+    
+
+    <h3 style="background-color: gray; color: black;"> 🍸 Mocktails</h3>
+    <ul type="disc">
+        <li><pre>mojito                       100</pre></li>
+        <li><pre>strawberry crush             100</pre></li>
+    </ul>
+     <dl>
+        <dt>Thank you !!!</dt>
+        <dd> Visit Again</dd>
+     </dl>
+
+
+        <img src="./Menu_files/c1.jpg" alt="" height="150" width="200">
+
+        <img src="./Menu_files/m1.webp" alt="" height="200" width="150">
+    
+  
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
